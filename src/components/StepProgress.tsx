@@ -23,7 +23,7 @@ export const StepProgress: React.FC = ({ children }): React.ReactElement => {
   );
 };
 
-export const withStepProgress = (Component: React.FC) => (props): React.ReactElement => (
+export const withStepProgress = (Component: React.FC) => (props:any): React.ReactElement => (
   <StepProgress>
     <Component {...props} />
   </StepProgress>
